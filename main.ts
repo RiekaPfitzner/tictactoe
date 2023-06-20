@@ -15,7 +15,9 @@ input.onButtonPressed(Button.A, function () {
     }
     basic.pause(5000)
     wuerfeln_erlaubt = false
+    enable_a = false
     basic.showString("Los!")
+    enable_b = true
 })
 function spiel_stopp () {
 	
@@ -75,6 +77,7 @@ function main () {
     state = false
     enable_a = false
 }
+let enable_b = false
 let wuerfeln_erlaubt = false
 let enable_a = false
 let state = false
